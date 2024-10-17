@@ -1,0 +1,110 @@
+DAY - 01 :
+
+
+    POINTS:
+
+        TODAY I HAD LEART ABOUT THE WORKING OF % , LIKE WHEN IT GETS INHERITED FROM PARENT TO CHILD AND HOW IMPECCABLY IT HAS AN EFFECT ON RESPONSIVENESS OF WEBSITE LAYOUT.
+
+
+        NOTE: IN MOST CASES DON'T USE HEIGHTS BECAUSE THEY CAUSE AN NEGATIVE EFFECT ON LYT OF WEBSITE.
+
+        INSTEAD USE WIDTHS WITH PERCENTAGES SO THAT YOU COULD MAKE LYT RESPONSIVE.
+
+        ALSO WE MAKE THE HEIGHT TO BE AUTO OR BY ITSELF, IT IS DEFAULT.
+
+
+        STEPS:
+
+            BASICS: BACKGROUND, COLOR
+
+            1)MAKE DESIRED WIDTH AND SET MARGIN TO 0 AUTO
+            2)IF YOU WANTED TO SEE MORE BG THEN SET PADDING TO SOME HIGHER VALUE.
+            3)NOW SEE THE RESULT WHERE WHOLE LYT RESPONDS WELL TO THE CHANGE IN SCREEN RATIO.
+
+
+        ADP'S: MOSTLY TRY TO USE em's, rem's, and % INSTEAD OF px for relative change w.r.t PARENT.
+
+DAY - 02:
+
+
+    POINTS:
+
+        TODAY I had learnt about usage of rems and ems instead of fixed lenghts like px's and also the dis-advantages of using ems in certain cases.
+
+
+        Whenever an em is applied on fontsize property of one element and if it has it's own child elem's than the fontsize gets compounded in a multiple ratio to it's child elem.
+
+
+        Whereas the rem do not work so in that way of em's, instead it always points to the root elem. like(:root,html).
+
+            Dis-advantages of em :
+
+                    due to it's potentiality to compound its size it is not good to associate em with font-size.
+
+                    instead usage of rem in such cases is optimal.
+
+
+
+        NOTE: Whenever we start associating the unit em with other lyt properties like margin , padding.. 
+
+        like,    a{
+                        font-size: 1em;
+                        padding: 2em;
+                 }
+
+                 the padding with 2em does not look for the parent's value or gets effected by the parent's value, instead it looks within its element fontsize value.
+
+
+        also it would be efficient if we start using rem's for fontsize property and em's for padding and margins. So that padding and margins are effected by the  fontsize property of its own elem.            
+
+DAY - 03:
+
+    POINTS: Known mostly about max-width;
+
+DAY - 04:
+
+    POINTS: Known about vh vmin vmax etc...
+
+DAY - 05:
+
+    POINTS: Learnt one of the best combination that makes the one section of website RESPONSIVE
+
+            max-width:750px;
+            width:80%
+            margin:0 auto;
+
+
+DAY - 06:
+
+
+
+
+
+DAY - 07:
+ 
+
+
+DAY - 08:
+
+
+
+DAY - 09:
+
+DAY - 10:
+
+
+DAY - 11:
+
+
+
+        
+
+
+DAY - 12:
+
+
+    POINTS: TODAY I MAINLY FOCUSSED ON NAV PART, WHERE I GOT TO KNOW HOW IDEALY WE USE FLEX BOX AND ITS properties TO ENHANCE THE RESPONSIVENESS OF NAV PART.
+
+             GOT TO KNOW ABOUT FLEX GROW AND FLEX SHRINK properties WORK AND THE COMPARISON OF GROW WITH WIDTH propertY.
+
+             ALSO TODAY I HAD Learnt ABOUT THE POSITIONING OF ELEMENTS(div's, img's, anchor's) IN NAV IN 3 DIFF WAYS.

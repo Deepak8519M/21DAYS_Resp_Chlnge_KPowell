@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Roboto", system-ui;
+  font-family: "Playfair Display", serif; */
+}
+
+/* 1 | Roboto Light font-size: 18px; maximum width of a “container” 
+is 1128px
+
+in the cery first section try setting a min-height  
+of 660px and using what we’ve covered in 
+flexbox to center the content vertically
+2 | Playfair Display Black font-size: 60px;
+3 | Playfair Display Black font-size: 36px;
+4 | Roboto Regular font-size: 21px; */
+
+.one {
+  height: 60vh;
+  min-height: 660px;
+  background: #f3eed9;
+}
+
+.container {
+  max-width: 1128px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  height: 100%;
+}
+
+.one-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_area {
+  display: flex;
+  flex-direction: column;
+}
+
+.one-text_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  /* border: 1px solid green; */
+  max-width: 70%;
+}
+
+.text_area h4 {
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: capitalize;
+  word-spacing: 0.6rem;
+  letter-spacing: 0.5rem;
+}
+
+.text_area h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  color: #824936;
+}
+
+/* section two start */
+
+.two {
+  background: transparent;
+  padding: 4rem;
+}
+.two-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.two-text_area {
+  gap: 3rem;
+}
+.section-two_heading {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: #824936;
+}
+
+.section-two_cntent {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+  /* text-align: justify; */
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-size: 21px;
+  word-spacing: normal;
+}
+/* Section three start */
+.three {
+  background: #222c2a;
+  padding: 4rem;
+}
+.three-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  gap: 3rem;
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: flex-start;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+}
+
+.text h3 {
+  /* text-align: center; */
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: white;
+}
+
+.text p {
+  line-height: 1.4rem;
+  font-family: "Roboto", system-ui;
+}
+
+/* Fourth Section Start */
+
+.four {
+  background: #824936;
+}
